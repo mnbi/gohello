@@ -2,7 +2,9 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"os"
+	"runtime"
 
 	"github.com/mnbi/gohello"
 	"github.com/mnbi/gohello/internal/greeting"
@@ -27,4 +29,7 @@ func main() {
 
 	msg := greeting.Greeting()
 	utils.Print(string(msg))
+
+	builtWithMsg := fmt.Sprintf("I was built with %s.\n", runtime.Version())
+	utils.Print(builtWithMsg)
 }

@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
+- (nothing)
+
+## [0.1.1] - 2024-12-05
+- Build with the go new version (1.23.4).
+- Add `textdata` directory.
 
 ## [0.1.0] - 2024-11-27
 - Re-structure files and directories as a typical go repository (#1)
